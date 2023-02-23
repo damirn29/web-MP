@@ -40,3 +40,5 @@ hand__wrist hand__wrist_bracelet
 
 .box>h2+.box__card*3>h3+p+a
 form>(label+input)*5+input[type="button"]
+.container>h2+p+.container__box>(img+p)*4
+.header>header__logo+nav>ul>li*6
