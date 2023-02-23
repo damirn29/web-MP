@@ -18,13 +18,15 @@
 </body>
 ```
 
-
+1. 
 ![cards](/img/1.png)
+.box>h2+.box__card*3>h3+p+a
+2. 
 ![form](/img/2.png)
+form>(label+input)*5+input[type="button"]
+3. 
 ![BEM](/img/3.png)
+.container>h2+p+.container__box>(img+p)*4
+4. 
 ![header](/img/4.png)
-
-1. .box>h2+.box__card*3>h3+p+a
-2. form>(label+input)*5+input[type="button"]
-3. .container>h2+p+.container__box>(img+p)*4
-4. .header>header__logo+nav>ul>li*6
+.header>header__logo+nav>ul>li*6
