@@ -20,13 +20,13 @@
 
 
 ![cards](/img/1.png)
-.box>h2+.box__card*3>h3+p+a
+section.steps>h2.steps__h2+img.steps__arrow-img*2+.steps__box*3>h3.steps__h3+p.steps__text+a.steps__link
 
 ![form](/img/2.png)
-form>(label+input)*5+input[type="button"]
+section.find>h2.find__h2+form.find__form>(label.find__label+input.find__input)*5+input[type="submit"].find__btn
 
 ![BEM](/img/3.png)
-.container>h2+p+.container__box>(img+p)*4
+section.bring>(h2.bring__h2+p.bring__text)>.bring__container>.bring__box*4>img.bring__img+p.bring__txt
 
 ![header](/img/4.png)
-.header>header__logo+nav>ul>li*6
+.header>img.header__logo+nav.header__nav>ul.header__ul>.header__li*6>a.header__link
